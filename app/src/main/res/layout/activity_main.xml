@@ -22,18 +22,18 @@
             android:layout_weight="1"
             android:fontFamily="@font/rantera"
             android:gravity="start"
-            android:text="Calculater"
+            android:text="Calculator"
             android:textColor="#ffffff"
             android:textSize="34sp"
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btn_sitteng"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:backgroundTint="#08263B"
+            android:backgroundTint="@color/purple_200"
             android:maxWidth="10dp"
             app:srcCompat="@drawable/settings_fill0_wght400_grad0_opsz48" />
 
@@ -46,7 +46,7 @@
 
 
         <TextView
-            android:id="@+id/textViewreinput2"
+            android:id="@+id/tv_firstNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="7"
@@ -56,7 +56,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textViewresult"
+            android:id="@+id/tv_operations"
             android:layout_width="42dp"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -65,7 +65,7 @@
             android:textSize="24sp" />
 
         <TextView
-            android:id="@+id/textViewinput1"
+            android:id="@+id/tv_secNumber"
             android:layout_width="183dp"
             android:layout_height="wrap_content"
 
@@ -82,7 +82,7 @@
         android:orientation="horizontal"></LinearLayout>
 
     <EditText
-        android:id="@+id/totalresult"
+        android:id="@+id/tv_results"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
