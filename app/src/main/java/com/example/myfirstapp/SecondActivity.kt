@@ -33,7 +33,7 @@ class SecondActivity : AppCompatActivity() {
         when(pref.getFontColor()){
             1 -> btnColorRed.isChecked=true
             2 -> btnColorWhite.isChecked=true
-            2 -> btnColorBlack.isChecked=true
+            3 -> btnColorBlack.isChecked=true
         }
         btnmode.isChecked=pref.getMode()
         fontext.setText(pref.getFontSize().toString())
